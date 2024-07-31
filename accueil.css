@@ -80,9 +80,13 @@ nav ul li a:hover{
 .qualites{
     text-align: center;
     padding: 40px 20px;
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 10px;
-    margin-top: 10%;
+    background-color: rgba(255,255,255,0.5);
+    margin: 10% auto;
+    place-items: center;
+    border-radius: 5px;  
+    box-sizing: border-box;
+    width: 98%;
+    height: 98%;
 }
 
 .qualites-container{
