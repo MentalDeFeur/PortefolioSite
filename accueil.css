@@ -61,7 +61,7 @@ nav ul li a:hover{
     justify-content: center;
     gap: 20px;
     padding: 20px;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -81,13 +81,27 @@ nav ul li a:hover{
     text-align: center;
     padding: 40px 20px;
     background-color: rgba(255,255,255,0.5);
-    margin: 10% auto;
+    margin: 15% auto;
     place-items: center;
     border-radius: 5px;  
     box-sizing: border-box;
     width: 98%;
     height: 98%;
 }
+
+.projects{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 3% auto;
+    place-items: center;
+    border-radius: 5px;  
+    box-sizing: border-box;
+    width: 98%;
+    height: 98%;
+}
+
+
 
 .qualites-container{
     display: flex;
